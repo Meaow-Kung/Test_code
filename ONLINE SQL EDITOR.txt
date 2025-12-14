@@ -1,0 +1,31 @@
+ONLINE SQL EDITOR
+
+คำสั่งสร้างตาราง
+CREATE TABLE MEO (
+  MEOID INT,
+  FIRST_NAME VARCHAR,
+  LAST_NAME VARCHAR,
+  AGE INT
+);
+
+ลบอันบนออกก่อน
+
+คำสั่งใส่ข้อมูล
+INSERT INTO MEO(MEOID,FIRST_NAME,LAST_NAME,AGE)
+VALUES (1,'No','problem',2);
+
+INSERT INTO MEO(MEOID,FIRST_NAME,LAST_NAME,AGE)
+VALUES (2,'NIGY','MEME',2);
+
+INSERT INTO MEO(MEOID,FIRST_NAME,LAST_NAME,AGE)
+VALUES (3,'JO','JO',1);
+
+การแสดงผลออกให้เห็น(*)ถ้าใส่จะแสดงผลคอลัมทั้งหมดถ้าไม่ใส้ต้องกำหนดชื่อคอลัมที่จะแสดง
+SELECT * FROM MEO;
+
+วิธีการลบROWเลข1คือที่ต้องกำหนดตรงไอดีที่เราจะลบ
+DELETE FROM MEO
+WHERE MEOID = 1;
+
+ลบทั้งหมด
+DROP TABLE MEO;

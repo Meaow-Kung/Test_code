@@ -1,0 +1,12 @@
+/*shift + alt + f คีร์จัดโค้ด*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
