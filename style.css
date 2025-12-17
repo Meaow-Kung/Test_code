@@ -5,8 +5,11 @@
 }
 
 body {
+    display: flex;
+    justify-content: center; /* กลางซ้าย-ขวา */
+    align-items: center;     /* กลางบน-ล่าง */
+    height: 100vh;           /* สูงเต็มหน้าจอ */
     font-size: 50px;
-    text-align: center;
     cursor: pointer;
 }
 
